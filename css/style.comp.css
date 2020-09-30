@@ -53,7 +53,7 @@ body {
       grid-template-areas: "head head"  "box-1 box-2" "box-3 box-4"; } }
   @media only screen and (max-width: 37.5em) {
     .container {
-      grid-template-columns: repeat(1, minmax(min-content, 35rem));
+      grid-template-columns: repeat(1, minmax(min-content, 80vw));
       grid-template-rows: repeat(5, min-content);
       grid-template-areas: "head"  "box-1" "box-2" "box-3" "box-4"; } }
   .container .item__1 {
@@ -64,7 +64,7 @@ body {
     text-align: center; }
     @media only screen and (max-width: 37.5em) {
       .container .item__1 {
-        width: 50vh; } }
+        width: 80vw; } }
   .container .item:not(:first-child) {
     box-shadow: 0rem 0.7rem 1.7rem rgba(0, 0, 0, 0.3);
     border-radius: .5rem;
@@ -88,7 +88,10 @@ body {
   color: var(--color-secondary-1); }
   @media only screen and (max-width: 37.5em) {
     .heading__sub {
-      font-size: 2.3rem; } }
+      font-size: 3.3rem; } }
+  @media only screen and (max-width: 31.25em) {
+    .heading__sub {
+      font-size: 2.7rem; } }
 
 .heading__prime {
   font-weight: 600;
@@ -96,12 +99,18 @@ body {
   color: var(--color-secondary-1); }
   @media only screen and (max-width: 37.5em) {
     .heading__prime {
-      font-size: 2.3rem; } }
+      font-size: 3.3rem; } }
+  @media only screen and (max-width: 31.25em) {
+    .heading__prime {
+      font-size: 2.7rem; } }
 
 .heading__details {
   font-weight: 400;
   font-size: 1.4rem;
   color: var(--color-secondary-2); }
+  @media only screen and (max-width: 37.5em) {
+    .heading__details {
+      font-size: 2rem; } }
 
 .box {
   display: flex;

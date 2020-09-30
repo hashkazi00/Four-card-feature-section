@@ -6,7 +6,10 @@
         color: var(--color-secondary-1);
 
         @media only screen and (max-width:$bt-small){
-        font-size:2.3rem;   
+        font-size:3.3rem;   
+        }
+        @media only screen and (max-width:$bt-smallest){
+        font-size:2.7rem;   
         }
     }
 
@@ -17,7 +20,10 @@
         // margin-top: .6rem;
         // margin-bottom: 1.2rem;
         @media only screen and (max-width:$bt-small){
-        font-size:2.3rem;   
+        font-size:3.3rem;   
+        }
+        @media only screen and (max-width:$bt-smallest){
+        font-size:2.7rem;   
         }
     }
 
@@ -25,8 +31,13 @@
         font-weight: 400;
         font-size: 1.4rem;
         color: var(--color-secondary-2);
+        @media only screen and (max-width:$bt-small){
+        font-size:2rem;   
+        }
 
     }
+
+    
 
 }
 

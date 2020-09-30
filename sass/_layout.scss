@@ -30,7 +30,7 @@
 
   @media only screen and (max-width:$bt-small){
 
-  grid-template-columns: repeat(1, minmax(min-content, 35rem));
+  grid-template-columns: repeat(1, minmax(min-content, 80vw));
   
   grid-template-rows: repeat(5, min-content);
 
@@ -53,8 +53,10 @@
       width: 50rem;
       justify-self: center;
       text-align: center;
+
       @media only screen and (max-width:$bt-small){  
-          width:50vh;
+          width:80vw;
+          
     }
     }
 
