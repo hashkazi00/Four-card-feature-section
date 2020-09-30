@@ -123,6 +123,9 @@ body {
   .box__details {
     color: var(--color-secondary-2);
     font-size: 1.4rem; }
+    @media only screen and (max-width: 31.25em) {
+      .box__details {
+        font-size: 1.7rem; } }
   .box__svg {
     align-self: flex-end;
     padding-top: 2.5rem; }
