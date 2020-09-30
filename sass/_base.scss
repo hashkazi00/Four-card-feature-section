@@ -1,0 +1,55 @@
+
+:root {
+
+    --color-primary-1:hsl(0, 78%, 62%);
+    --color-primary-2:hsl(180, 62%, 55%);
+    --color-primary-3:hsl(34, 97%, 64%);
+    --color-primary-4:hsl(212, 86%, 64%);
+
+
+    --color-secondary-1:hsl(234, 12%, 34%);
+    --color-secondary-2:hsl(229, 6%, 66%);
+    --color-secondary-3:hsl(0, 0%, 98%);
+
+
+
+
+    --color-white:hsl(0, 0%, 100%);
+
+}
+
+
+$bt-largest: 77em; //1216/16 = 76em
+$bt-large:68.75em; //1100/16 = 68.75em
+$bt-medium: 56.25em; //900/16 = 56.25em
+$bt-small: 37.5em ;//600/16 = 37.5em
+$bt-smallest: 31.25em; //500/16 = 31.25em
+
+
+html{
+    box-sizing:border-box;
+    font-size: 62.5%; //1rem = 10px (10/16 = 62.5%)
+
+    @media only screen and (max-width:$bt-small){
+        font-size: 50%;   
+    }
+}
+
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing:inherit;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    font-size: 1.5rem;
+    background-color: var(--color-secondary-1);
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
